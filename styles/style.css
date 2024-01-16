@@ -171,6 +171,94 @@ main{
     gap: 24px;
     padding-top: 24px;
 }
+.place-one{
+    position: relative;   
+}
+.place-one p{
+    position: absolute;
+    top: 110px;
+    right: 220px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.place-two{
+    position: relative;
+}
+.place-two p{
+    position: absolute;
+    top: 110px;
+    right: 220px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.place-two{
+    position: relative;
+}
+.place-two p{
+    position: absolute;
+    top: 110px;
+    right: 220px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.place-three{
+    position: relative;
+}
+.place-three p{
+    position: absolute;
+    top: 110px;
+    right: 120px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.place-four{
+    position: relative;
+}
+.place-four p{
+    position: absolute;
+    top: 110px;
+    right: 140px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.place-five{
+    position: relative;
+}
+.place-five p{
+    position: absolute;
+    top: 110px;
+    right: 80px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.place-six{
+    position: relative;
+}
+.place-six p{
+    position: absolute;
+    top: 110px;
+    right: 160px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}    
+.place-seven{
+    position: relative;
+}
+.place-seven p{
+    position: absolute;
+    top: 110px;
+    right: 270px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
 /* choose us section */
 
 .choose-us{
@@ -233,6 +321,79 @@ main{
 }
 
 
+.newsletter-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+.newsletter-box{
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 0 30px 0 30px;
+}
+.newsletter-box h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.newsletter-box p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.newsletter-box input{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-top: 20px;
+}
+.subscribe-btn{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 16px;
+}
+.off-btn{
+    width: 324px;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    padding-bottom: 30px ;
+}
+.off-btn p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.off-btn h3{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+.offer-img{
+    position: relative;
+}
+.off-btn{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
 /* responsive media */
 @media screen and (max-width:600px) {
     header{
@@ -281,13 +442,28 @@ main{
    .choose-container{
         padding-top: 30px;
    }
-   .row{
-        flex-direction: column;
+   .row,
+   .newsletter-container
+   {
+    flex-direction: column;
    }
    .row img{
     width: 335px;
     height: 176px;
    }
+    .place-one p,
+    .place-two p,
+    .place-three p,
+    .place-four p,
+    .place-five p,
+    .place-six p,
+    .place-seven p
+    {
+        top: 55px;
+        right: 120px;
+        font-size: 20px;
+        font-weight: 700;
+    }
 
    .choose-us{
         flex-direction: column;
@@ -302,4 +478,39 @@ main{
     width: 270px;
     margin: 40px auto;
    }
+
+
+   .newsletter-box{
+    width: 270px;
+    height: 353px;
+   }
+.newsletter-box h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+.newsletter-box p{
+    font-size: 14px;
+    font-weight: 400; 
+}
+.newsletter-box input{
+    width: 270px;
+    height: 44px;
+    margin-top: 20px;
+}
+.subscribe-btn{
+    width: 270px;
+    height: 44px;
+    margin-top: 20px;
+}
+.offer-img img{
+    width: 335px;
+    height: 320px;
+}
+.off-btn{
+    width: 215px;
+    height: 90px;
+    transform: rotate(-19.628deg);
+    right: 1px;
+    bottom: 10px;
+}
 }
