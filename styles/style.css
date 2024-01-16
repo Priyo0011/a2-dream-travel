@@ -4,11 +4,14 @@
     font-family: 'Mulish', sans-serif; 
 }
 
-/* header style start */
 
 header{
     width: 1170px;
     margin: 0 auto;
+}
+nav{
+    max-width: 1440px;
+    background: rgba(19, 19, 24, 0.05);  
 }
 header nav{
     display: flex;
@@ -107,7 +110,7 @@ header nav{
     font-size: 16px;
     font-weight: 700;
 }
-/* header style end */
+
 main{
     width: 1170px;
     margin: 0 auto;
@@ -149,7 +152,6 @@ main{
     height: 540px;
 }
 
-/* row section */
 .choose-container{
     text-align: center;
     padding-top: 100px;
@@ -259,7 +261,6 @@ main{
     font-size: 28px;
     font-weight: 800;
 }
-/* choose us section */
 
 .choose-us{
     display: flex;
@@ -318,6 +319,39 @@ main{
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400
+}
+.fact-title{
+    font-size: 30px;
+    font-weight: 800;
+    color: #131313;
+}
+.section-text-info{
+    font-weight: 400;
+    color: #727272;
+    padding-bottom: 60px;
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .facts-card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+
+}
+.facts-card-container .card-stats{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    color: #727272;
+    margin-top: 5px;
 }
 
 
@@ -391,7 +425,42 @@ main{
     position: absolute;
     bottom: 20px;
     right: 20px;
+    transform: rotate(-19.628deg);
 }
+.footer-container{
+    background: rgba(19, 19, 24, 0.05);
+    width: 1440px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    padding: 100px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo img{
+    height: 60px;
+    margin-top: 26px;
+}
+.footer-logo h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-text p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+.footer-text img{
+    margin-bottom: 60px;
+}
+
+
 
 
 /* responsive media */
@@ -478,7 +547,10 @@ main{
     width: 270px;
     margin: 40px auto;
    }
-
+   .facts-card-container{
+     flex-direction: column;
+     gap: 20px;
+   }
 
    .newsletter-box{
     width: 270px;
@@ -512,5 +584,10 @@ main{
     transform: rotate(-19.628deg);
     right: 1px;
     bottom: 10px;
+}
+.footer-container{
+    width: 375px;
+    height: 460px;
+    padding: 20px;
 }
 }
