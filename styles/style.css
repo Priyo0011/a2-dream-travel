@@ -171,6 +171,66 @@ main{
     gap: 24px;
     padding-top: 24px;
 }
+/* choose us section */
+
+.choose-us{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+.choose-us-one{
+    width: 600px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+}
+.choose-us-one h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.choose-us-one p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400
+}
+.choose-us-two{
+    width: 600px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.choose-us-two h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.choose-us-two p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400
+}
+.choose-us-three{
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 600px;
+    margin-top: 45px;
+    margin-left: 300px;
+}
+.choose-us-three h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.choose-us-three p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400
+}
 
 
 /* responsive media */
@@ -188,7 +248,7 @@ main{
     }
     .banner-container{
         width: 335px;
-        height: 483px; 
+        height: 500px; 
     }
     .select-btn{
         flex-direction: column;
@@ -196,10 +256,10 @@ main{
     .banner-container h1{
         font-size: 22px;
         font-weight: 800;
-        padding-top: 20px;
+        padding-top: 10px;
     }
     .banner-container p{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
     }
     
@@ -227,5 +287,19 @@ main{
    .row img{
     width: 335px;
     height: 176px;
+   }
+
+   .choose-us{
+        flex-direction: column;
+   }
+   .choose-us-one{
+    width: 270px;;
+   }
+   .choose-us-two{
+    width: 270px;
+   }
+   .choose-us-three{
+    width: 270px;
+    margin: 40px auto;
    }
 }
